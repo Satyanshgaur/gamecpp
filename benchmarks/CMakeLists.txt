@@ -1,0 +1,2 @@
+add_executable(BenchAllocators bench_allocators.cpp)
+target_link_libraries(BenchAllocators PRIVATE Engine)
